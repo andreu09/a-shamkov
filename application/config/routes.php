@@ -50,9 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 
-// Для пагинации новостей
-$route['news/:num'] = 'news/index';
-$route['feed/:num'] = 'feed/index';
-$route['default_controller'] = 'Feed';
+
+$route['default_controller'] = 'Bot';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
